@@ -1,0 +1,14 @@
+<?php
+$films = [
+        'Indiana Jones et le Royaume du Crâne de Cristal'=> ['Harrison Ford','Cate Blanchett','Karen Allen'],
+        'Indiana Jones et la Dernière Croisade'=>['Harrison Ford','Sean Connery','Denholm Elliott'],
+        'Indiana Jones et le Temple maudit'=> ['Harrison Ford','Kate Capshaw','Jonathan Ke Quan']
+];
+foreach ($films as $titre => $acteur){
+    echo "Dans le film $titre, les principaux acteurs sont : <br>$acteur[0], $acteur[1], $acteur[2].<br><br>";
+}
+
+
+
+?>
+~        
